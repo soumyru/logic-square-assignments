@@ -1,0 +1,54 @@
+body {
+    font-family: 'Verdana', sans-serif; /* Changed font-family */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #e6e6e6; /* Changed background color */
+    color: #555;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #336699; /* Changed heading color */
+}
+
+label {
+    margin-right: 10px;
+    color: #555;
+}
+
+input {
+    padding: 10px; /* Increased padding */
+    border: 2px solid #99cc99; /* Changed border color and thickness */
+    border-radius: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%; /* Increased table width */
+    margin-top: 20px;
+    background-color: #f9f9f9; /* Changed table background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #336699;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Changed even row background color */
+}
+
+tr:hover {
+    background-color: #e0e0e0; /* Changed hover background color */
+}
